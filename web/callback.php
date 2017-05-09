@@ -166,6 +166,6 @@ curl_setopt($ch, CURLOPT_HTTPHEADER, array(
     'Content-Type: application/json; charser=UTF-8',
     'Authorization: Bearer ' . $accessToken
     ));
-sleep(25);//遅延させてみた
+//sleep(25);//遅延させてみた
 $result = curl_exec($ch);
 curl_close($ch);
