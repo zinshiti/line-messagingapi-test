@@ -135,7 +135,7 @@ if ($text == 'はい') {
     "altText" => "hello 何かご用ですか？（はい／いいえ）",
     "template" => [
         "type" => "confirm",
-        "text" => "こんにちわ 何かご用ですか？",
+        "text" => "hello 何かご用ですか？",
         "actions" => [
             [
               "type" => "message",
